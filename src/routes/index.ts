@@ -5,7 +5,8 @@ const router: Router = Router();
 
 /* GET home page. */
 router.get("/", async (req: Request, res: Response, next: NextFunction) => {
-  res.render("index", { title: "Irashaimase!!!" });
+  //res.render("index", { title: "Irashaimase!!!" });
+  next();
 });
 
 export default router;
